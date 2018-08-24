@@ -35,7 +35,6 @@ export class HeroService {
       catchError(this.handleError<Hero>('getHero')));
   }
 
-
   /**
    * Handle Http operation that failed.
    * Let the app continue.
